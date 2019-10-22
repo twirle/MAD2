@@ -6,10 +6,18 @@
 //  Copyright © 2019 Shin. All rights reserved.
 //
 
+
+import Foundation
+
 class Friend {
-    var firstname: String= ""
+    var firstName: String = ""
+    var lastName: String = ""
+    var age:Int = 0
+    var description:String = ""
     
-    init(firstname:String) {
-        self.firstname = firstname
+    init(firstname:String, lastname:String, age:Int) {
+        self.firstName = firstname
+        self.lastName = lastname
+        self.age = age
     }
 }
