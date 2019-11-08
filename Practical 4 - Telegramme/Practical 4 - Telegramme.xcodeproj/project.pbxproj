@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F048675237413BF0059485B /* EditContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F048674237413BF0059485B /* EditContactViewController.swift */; };
 		8F17925A237157E800E29694 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F179259237157E800E29694 /* AppDelegate.swift */; };
 		8F17925C237157E800E29694 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F17925B237157E800E29694 /* SceneDelegate.swift */; };
 		8F17925E237157E800E29694 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F17925D237157E800E29694 /* ViewController.swift */; };
@@ -14,9 +15,13 @@
 		8F179263237157EE00E29694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F179262237157EE00E29694 /* Assets.xcassets */; };
 		8F179266237157EE00E29694 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F179264237157EE00E29694 /* LaunchScreen.storyboard */; };
 		8F17927023715F0900E29694 /* Content.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F17926F23715F0900E29694 /* Content.storyboard */; };
+		8F462B482373F7300026324B /* ShowContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F462B472373F7300026324B /* ShowContactViewController.swift */; };
+		8F7011732373EC15004C184F /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7011722373EC15004C184F /* AddContactViewController.swift */; };
+		8F7011752373EFE8004C184F /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7011742373EFE8004C184F /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F048674237413BF0059485B /* EditContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditContactViewController.swift; sourceTree = "<group>"; };
 		8F179256237157E800E29694 /* Practical 4 - Telegramme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Practical 4 - Telegramme.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F179259237157E800E29694 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F17925B237157E800E29694 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +31,9 @@
 		8F179265237157EE00E29694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F179267237157EE00E29694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F17926F23715F0900E29694 /* Content.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Content.storyboard; sourceTree = "<group>"; };
+		8F462B472373F7300026324B /* ShowContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowContactViewController.swift; sourceTree = "<group>"; };
+		8F7011722373EC15004C184F /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
+		8F7011742373EFE8004C184F /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +70,11 @@
 				8F17925B237157E800E29694 /* SceneDelegate.swift */,
 				8F17925D237157E800E29694 /* ViewController.swift */,
 				8F17925F237157E800E29694 /* Main.storyboard */,
+				8F462B472373F7300026324B /* ShowContactViewController.swift */,
 				8F17926F23715F0900E29694 /* Content.storyboard */,
+				8F7011722373EC15004C184F /* AddContactViewController.swift */,
+				8F048674237413BF0059485B /* EditContactViewController.swift */,
+				8F7011742373EFE8004C184F /* Contact.swift */,
 				8F179262237157EE00E29694 /* Assets.xcassets */,
 				8F179264237157EE00E29694 /* LaunchScreen.storyboard */,
 				8F179267237157EE00E29694 /* Info.plist */,
@@ -143,7 +155,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F17925E237157E800E29694 /* ViewController.swift in Sources */,
+				8F7011732373EC15004C184F /* AddContactViewController.swift in Sources */,
+				8F048675237413BF0059485B /* EditContactViewController.swift in Sources */,
+				8F7011752373EFE8004C184F /* Contact.swift in Sources */,
 				8F17925A237157E800E29694 /* AppDelegate.swift in Sources */,
+				8F462B482373F7300026324B /* ShowContactViewController.swift in Sources */,
 				8F17925C237157E800E29694 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

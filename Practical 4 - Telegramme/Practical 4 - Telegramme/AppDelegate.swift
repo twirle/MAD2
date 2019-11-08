@@ -10,11 +10,18 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
+    
+    var contactList:[Contact] = []
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        contactList = [
+            Contact(firstname: "Arae", lastname: "Tea", mobileno: "91284121"),
+            Contact(firstname: "Bare", lastname: "Dae", mobileno: "91125121"),
+            Contact(firstname: "Caer", lastname: "Haw", mobileno: "91831511")
+        ]
+        
         return true
     }
 
