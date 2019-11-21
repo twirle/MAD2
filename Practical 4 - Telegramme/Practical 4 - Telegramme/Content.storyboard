@@ -34,7 +34,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="fJF-Nv-sON" firstAttribute="leading" secondItem="4fA-4E-swC" secondAttribute="leading" constant="50" id="5ZA-go-5GR"/>
                             <constraint firstItem="fJF-Nv-sON" firstAttribute="top" secondItem="lcT-3B-nRH" secondAttribute="bottom" constant="35" id="AHq-ak-5dZ"/>
@@ -159,7 +159,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="3TH-K1-aUr" kind="show" id="Me0-td-XlV"/>
+                                    <segue destination="3TH-K1-aUr" kind="show" identifier="EditSegue" id="Me0-td-XlV"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

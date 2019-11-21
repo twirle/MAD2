@@ -15,9 +15,14 @@
 		8F179263237157EE00E29694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F179262237157EE00E29694 /* Assets.xcassets */; };
 		8F179266237157EE00E29694 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F179264237157EE00E29694 /* LaunchScreen.storyboard */; };
 		8F17927023715F0900E29694 /* Content.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F17926F23715F0900E29694 /* Content.storyboard */; };
+		8F2813E32383CA31001F6396 /* Telegramme.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F2813E12383CA31001F6396 /* Telegramme.xcdatamodeld */; };
+		8F2814082383CDBF001F6396 /* ContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2814072383CDBF001F6396 /* ContactController.swift */; };
+		8F2CCE292386872B0012F526 /* FriendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2CCE282386872B0012F526 /* FriendController.swift */; };
 		8F462B482373F7300026324B /* ShowContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F462B472373F7300026324B /* ShowContactViewController.swift */; };
 		8F7011732373EC15004C184F /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7011722373EC15004C184F /* AddContactViewController.swift */; };
 		8F7011752373EFE8004C184F /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7011742373EFE8004C184F /* Contact.swift */; };
+		8FA5E45923868A0000C57C9F /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA5E45823868A0000C57C9F /* Friend.swift */; };
+		8FA5E45B23868BF500C57C9F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA5E45A23868BF500C57C9F /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +36,14 @@
 		8F179265237157EE00E29694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F179267237157EE00E29694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F17926F23715F0900E29694 /* Content.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Content.storyboard; sourceTree = "<group>"; };
+		8F2813E22383CA31001F6396 /* Telegramme.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Telegramme.xcdatamodel; sourceTree = "<group>"; };
+		8F2814072383CDBF001F6396 /* ContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactController.swift; sourceTree = "<group>"; };
+		8F2CCE282386872B0012F526 /* FriendController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendController.swift; sourceTree = "<group>"; };
 		8F462B472373F7300026324B /* ShowContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowContactViewController.swift; sourceTree = "<group>"; };
 		8F7011722373EC15004C184F /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
 		8F7011742373EFE8004C184F /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		8FA5E45823868A0000C57C9F /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		8FA5E45A23868BF500C57C9F /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,11 +77,16 @@
 			isa = PBXGroup;
 			children = (
 				8F179259237157E800E29694 /* AppDelegate.swift */,
+				8F2814072383CDBF001F6396 /* ContactController.swift */,
 				8F17925B237157E800E29694 /* SceneDelegate.swift */,
 				8F17925D237157E800E29694 /* ViewController.swift */,
 				8F17925F237157E800E29694 /* Main.storyboard */,
 				8F462B472373F7300026324B /* ShowContactViewController.swift */,
+				8F2CCE282386872B0012F526 /* FriendController.swift */,
+				8FA5E45A23868BF500C57C9F /* Message.swift */,
 				8F17926F23715F0900E29694 /* Content.storyboard */,
+				8F2813E12383CA31001F6396 /* Telegramme.xcdatamodeld */,
+				8FA5E45823868A0000C57C9F /* Friend.swift */,
 				8F7011722373EC15004C184F /* AddContactViewController.swift */,
 				8F048674237413BF0059485B /* EditContactViewController.swift */,
 				8F7011742373EFE8004C184F /* Contact.swift */,
@@ -156,11 +171,16 @@
 			files = (
 				8F17925E237157E800E29694 /* ViewController.swift in Sources */,
 				8F7011732373EC15004C184F /* AddContactViewController.swift in Sources */,
+				8F2813E32383CA31001F6396 /* Telegramme.xcdatamodeld in Sources */,
 				8F048675237413BF0059485B /* EditContactViewController.swift in Sources */,
 				8F7011752373EFE8004C184F /* Contact.swift in Sources */,
 				8F17925A237157E800E29694 /* AppDelegate.swift in Sources */,
 				8F462B482373F7300026324B /* ShowContactViewController.swift in Sources */,
+				8F2CCE292386872B0012F526 /* FriendController.swift in Sources */,
 				8F17925C237157E800E29694 /* SceneDelegate.swift in Sources */,
+				8FA5E45B23868BF500C57C9F /* Message.swift in Sources */,
+				8F2814082383CDBF001F6396 /* ContactController.swift in Sources */,
+				8FA5E45923868A0000C57C9F /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +376,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8F2813E12383CA31001F6396 /* Telegramme.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8F2813E22383CA31001F6396 /* Telegramme.xcdatamodel */,
+			);
+			currentVersion = 8F2813E22383CA31001F6396 /* Telegramme.xcdatamodel */;
+			path = Telegramme.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8F17924E237157E800E29694 /* Project object */;
 }
