@@ -13,6 +13,22 @@ import UIKit
 class RecipeController {
     
     func AddRecipe(recipe:Recipe) {
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        let context = appDelegate.persistentContainer.viewContext
+        
+        let entity = NSEntityDescription.entity(forEntityName: "CDRecipe", in: context)
+
+//        let cdRecipe = NSManagedObject(entity: entity!, insertInto: context)
+//
+//        cdRecipe.setValue(recipe.name, forKey: "name")
+//        cdRecipe.setValue(preparationTime, forKey: "preparationTime")
+        
+        let cdRecipe = NSManagedObject(entity: entity!, insertInto: context) as! CDRecipe
+        
+        cdRecipe.name = recipe.name
+        cdRecipe.preparationTime = recipe.preparationTime!
+        
+        appDelegate.saveContext()
         
     }
     
