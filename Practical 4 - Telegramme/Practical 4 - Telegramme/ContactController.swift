@@ -18,7 +18,7 @@ class ContactController {
         let person = NSManagedObject(entity: entity, insertInto: context)
         person.setValue(newContact.firstName, forKeyPath: "firstname")
         person.setValue(newContact.lastName, forKeyPath: "lastname")
-        person.setValue(newContact.mobileNo, forKeyPath: "mobile")
+        person.setValue(newContact.mobileNo, forKeyPath: "mobileno")
         
         do {
             try context.save()

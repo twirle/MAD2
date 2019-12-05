@@ -37,6 +37,8 @@ class ShowContactViewController: UITableViewController {
 //        let contact = appDelegate.contactList[indexPath.row]
         let controller = ContactController()
         let contact = controller.retrieveAllContact()[indexPath.row]
+        print(contact)
+        
         
         cell.textLabel!.text = "\(contact.firstName) \(contact.lastName)"
         cell.detailTextLabel!.text = "\(contact.mobileNo)"
@@ -66,7 +68,7 @@ class ShowContactViewController: UITableViewController {
         let controller = ContactController()
         let contactList = controller.retrieveAllContact()
         
-        let alert = UIAlertController(title: "Edit Contact", message: "", preferredStyle: UIAlertController.Style.alert)
+        //let alert = UIAlertController(title: "Edit Contact", message: "", preferredStyle: UIAlertController.Style.alert)
     }
     
 //    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

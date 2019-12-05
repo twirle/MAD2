@@ -18,7 +18,7 @@ class RecipeTableViewController : UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        recipeList = recipeController.RetrieveRecipe()
+        //recipeList = recipeController.RetrieveRecipe()
     }
     
     override func viewDidAppear(_ animated: Bool) {

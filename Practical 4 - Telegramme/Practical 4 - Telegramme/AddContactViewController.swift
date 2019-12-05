@@ -31,5 +31,6 @@ class AddContactViewController: UIViewController {
         
         let cController = ContactController()
         cController.AddContact(newContact:Contact(firstname: firstNameFld.text!, lastname: lastNameFld.text!, mobileno: mobileFld.text!))
+        
     }
 }

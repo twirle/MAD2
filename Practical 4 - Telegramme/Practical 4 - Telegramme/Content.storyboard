@@ -61,7 +61,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="firstNameFld" destination="lcT-3B-nRH" id="nMZ-d8-hMk"/>
+                        <outlet property="firstNameFld" destination="6wb-ys-fYE" id="TGM-Lt-zeI"/>
                         <outlet property="lastNameFld" destination="lcT-3B-nRH" id="chW-6s-6Ze"/>
                         <outlet property="mobileFld" destination="fJF-Nv-sON" id="pul-PD-nEz"/>
                     </connections>
