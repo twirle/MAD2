@@ -17,6 +17,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        AppDelegate.temp = Recipe(name: "Apple Pie", preparationTime: 5)
     }
     
     
