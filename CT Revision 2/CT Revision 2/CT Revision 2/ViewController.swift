@@ -28,6 +28,17 @@ class ViewController: UIViewController {
         let recipe:Recipe = Recipe(name: txtRecipeName.text!, preparationTime: Int16(txtPreparationTime.text!)!)
         let ingredient1:Ingredient = Ingredient(name: txtIngredients1.text!)
         
+        
+        let alertView = UIAlertController(title: "Confirm", message: "Do you want to add this recipe?", preferredStyle: UIAlertController.Style.alert)
+        
+        alertView.addAction(UIAlertAction(title: "Yes", style: UIAlertAction.Style.default, handler: {_ in
+            print(ingredient1.name!)
+            
+        }))
+        alertView.addAction(UIAlertAction(title: "No", style: UIAlertAction.Style.default, handler: { _ in
+        }))
+        self.present(alertView, animated: true, completion: nil)
+        
         recipeController.AddRecipe(recipe: recipe)
         recipeController.AddIngredientToRecipe(recipe:recipe, ingredient:ingredient1)
     }

@@ -43,7 +43,13 @@ class RecipeController {
         let fetchRequest = NSFetchRequest<NSManagedObject>(entityName: "CDRecipe")
         fetchRequest.predicate = NSPredicate(format: "name = %@", recipe.name!)
         
+        
+        
         // Check if ingredient exist
+        //if entity.count > 0 {
+            
+        //}
+        
         cdIngredient.name = ingredient.name
         
         // Adding to recipe

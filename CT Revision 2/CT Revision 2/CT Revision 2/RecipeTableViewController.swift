@@ -21,6 +21,12 @@ class RecipeTableViewController : UITableViewController {
         recipeList = recipeController.RetrieveRecipe()
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
+        recipeList = recipeController.RetrieveRecipe()
+        tableView.reloadData()
+    }
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
